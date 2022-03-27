@@ -11,10 +11,12 @@
         android:theme="@style/Theme.TodoApp">
         <activity
             android:name=".TaskAct"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".HasilAct"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".RegistrasiAct"/>
         <activity
             android:name=".RegistrasiAct"
             android:exported="false" />
